@@ -1,0 +1,85 @@
+.App{
+       background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 1000px;
+    margin-top: 0;
+}
+ul {
+    margin-top: 0;
+  }
+h1{
+    margin-top: 0%;
+    padding-top: 2%;
+    margin-left:0%
+}
+
+.MuiPaper-elevation1{
+    max-width:55%;
+    margin:auto;
+}
+
+.Search{
+    padding-top:2%;
+    min-height: 1500px;
+    height:150vh;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.Factors{
+    padding-top: 2%;
+    min-height: 1000px;
+    height:100vh
+}
+
+.Rankings-Select{
+    max-width: 55%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.Search-Select{
+    max-width: 55%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.Factors-Select{
+    max-width: 65%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.Factors-Select .css-2b097c-container{
+    display: inline-block;  
+    width: 49%;
+}
+.Factors-Select .country-select.css-2b097c-container{
+    margin-left: 2%;
+}
+
+.Factors .MuiPaper-elevation1{
+    max-width:65%;
+    margin:auto;
+}
+.RadarChart{
+    height:35vw;
+    width:65%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(50px);
+}
+.LineChart{
+    height:30vw;
+    width:55%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(50px);  
+    margin: auto;
+}

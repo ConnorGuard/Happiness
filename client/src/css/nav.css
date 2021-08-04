@@ -1,0 +1,46 @@
+.nav{
+    padding-top:10px;
+    margin-left: 10px;
+    position: fixed;
+    width:120%;
+    height:70px;
+    margin-left: -10px;
+    z-index: 10;
+}
+.App nav{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 80px;
+}
+.nav a{
+    transition: all 0.3s ease-in-out;
+    color:black;
+    margin-left: 40px;
+}
+.nav a:hover{
+    color:rgb(255, 255, 255);
+    background-color:black;
+}
+
+.nav-pills .nav-link.active {
+    color : rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border:   1px solid black;
+    outline:0 !important;
+}
+
+.loginBtn.btn-primary{
+    position: fixed;
+    top: 1.5em;
+    right: 1em;
+    background-color: transparent;
+    border: 1px solid black !important;
+    z-index: 15;
+
+    
+}.loginBtn.btn-primary:hover{
+background-color: black;
+}
+.loginBtn.btn-primary.active{
+    background-color: black  !important;
+}
+.loginBtn.btn-primary:focus {outline:0 !important;}
